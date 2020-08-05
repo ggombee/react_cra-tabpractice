@@ -18,7 +18,7 @@ const PaletteItem = ({ color, active, onClick }) => {
 
 // state 설정
 const Palette = (props) => {
-  const [selectedColor, setSelectedColor] = useState('');
+  const [selectedColor, setSelectedColor] = useState('red');
   const { colors } = props;
   // console.log('selectedColor:', selectedColor);
 

@@ -203,20 +203,15 @@ const thirdTab = [
 // }
 
 const tabs = [
-  { name: '상품쿠폰', id: 1 },
-  { name: '금액쿠폰', id: 2 },
-  { name: '전체쿠폰', id: 3 },
+  { name: '상품쿠폰', id: 1, value: firstTab },
+  { name: '금액쿠폰', id: 2, value: secondTab },
+  { name: '전체쿠폰', id: 3, value: thirdTab },
 ];
 
 function Coupon() {
   return (
     <>
-      <Tabs
-        tabs={tabs}
-        firstTab={firstTab}
-        secondTab={secondTab}
-        thirdTab={thirdTab}
-      />
+      <Tabs tabs={tabs} />
     </>
   );
 }
