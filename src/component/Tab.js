@@ -56,7 +56,7 @@ const Tab = (props) => {
   console.log('selectedTab :', selectedTab);
 
   return (
-    <div>
+    <>
       <div>
         {tabs.map((tab) => (
           <TabItem
@@ -75,7 +75,7 @@ const Tab = (props) => {
           )}
         </div>
       ))}
-    </div>
+    </>
   );
 };
 

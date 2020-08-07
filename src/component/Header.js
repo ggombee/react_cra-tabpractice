@@ -14,14 +14,14 @@ function Header() {
       <Link to="/Coupon">
         <div className="menu">쿠폰</div>
       </Link>
-      <Link to="/Vicmarket">
-        <div className="menu">빅마켓</div>
+      <Link to="/Notice">
+        <div className="menu">지점공지</div>
       </Link>
-      <Link to="/Event">
-        <div className="menu">이벤트</div>
+      <Link to="/Market/MarketMain">
+        <div className="menu">매장찾기</div>
       </Link>
-      <Link to="/Leaflet">
-        <div className="menu">전단</div>
+      <Link to="/Gift">
+        <div className="menu">선물함</div>
       </Link>
     </>
   );
